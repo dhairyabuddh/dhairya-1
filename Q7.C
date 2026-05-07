@@ -5,7 +5,7 @@
 	int l;
 	int w;
 	int areaRectangle;
-	clrscr();
+	
 	printf("enter lenth:");
 	scanf("%d",&l);
 
@@ -15,6 +15,6 @@
 	areaRectangle=l*w;
 	printf("areaRectangle=%d\n",areaRectangle);
 
-	getch();
+
 }
 

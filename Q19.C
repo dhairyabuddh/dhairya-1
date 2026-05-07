@@ -4,7 +4,7 @@
 void main(){
 	int password,conformPass;
 
-	clrscr();
+	
 	printf("Enter password: ");
 	scanf("%d",&password);
 
@@ -13,6 +13,6 @@ void main(){
 
 	printf(password==conformPass?"Both are equal": "Both arenot equal");
 
-	getch();
+
 
 }

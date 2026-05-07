@@ -1,9 +1,9 @@
 #include<stdio.h>
-#include<conio.h>
+
 #include<math.h>
 void main() {
 	int num,ans=0,ld,count=0,temp;
-	clrscr();
+	
 
 	printf("Enter number:");
 	scanf("%d",&num);
@@ -30,5 +30,5 @@ void main() {
 	else
 		printf("not armstrong num. \n");
 
-	getch();
+
 }

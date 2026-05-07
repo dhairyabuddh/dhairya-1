@@ -1,8 +1,8 @@
 #include<stdio.h>
-#include<conio.h>
+
 void main(){
 	char a;
-	clrscr();
+	
 	printf("Enter charecter:");
 	scanf("%c",&a);
 
@@ -12,5 +12,5 @@ void main(){
 		printf("charecter is consonants");
 	}
 
-	getch();
+
 }

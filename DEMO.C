@@ -17,7 +17,7 @@ void main() {
 
 	long int income = 10000;
 	double tax = 9030.2323;
-	clrscr();
+	
 
 	printf("num = %.5d \n", num); // %d -> int
 	printf("pi = %.2f \n", pi); // %f -> float
@@ -25,5 +25,5 @@ void main() {
 
 	printf("income = %ld \n", income);
 	printf("tax = %lf \n", tax);
-	getch();
+
 }

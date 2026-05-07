@@ -13,7 +13,7 @@ void main() {
 	// arr2 -> 4X3
 	int arr2[][3] = {3, 2, 5, 6, 6, 2, 3, 5, 1, 5};
 
-	clrscr();
+	
 
 	for (i = 0; i < 4; i++) { // row (sub array)
 		for (j = 0; j < 2; j++) { // column (elems of sub array)
@@ -29,5 +29,5 @@ void main() {
 		}
 		printf("\n");
 	}
-	getch();
+
 }

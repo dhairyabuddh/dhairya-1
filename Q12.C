@@ -5,7 +5,7 @@ void main(){
 	float ta,da,hra,pf;
 	float tax,total,net;
 
-	clrscr();
+	
 	printf("enter basic salary:");
 	scanf("%d",&salary);
 
@@ -28,5 +28,5 @@ void main(){
 	net=total-tax;
 	printf("total salary:%f\n",total);
 	printf("net salary:%f",net);
-	getch();
+
 }

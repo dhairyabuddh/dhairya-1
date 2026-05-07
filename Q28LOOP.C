@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+
 void main() {
 	int num1=1;
 	int num2=2;
@@ -17,5 +17,5 @@ void main() {
 		num2+=2;
 	}
 	printf("\n below num is even ");
-	getch();
+
 }

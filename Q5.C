@@ -9,7 +9,7 @@
 	int subject5;
 	int sum;
 	float percentage;
-	clrscr();
+	
 
 	printf("enter subject1 : ");
 	scanf("%d", &subject1);
@@ -32,5 +32,5 @@
 //	percentage = sum / 500 * 100;
 	percentage = (float)sum / 5;
 	printf("percentage = %f \n", percentage);
-	getch();
+
 }

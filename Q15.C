@@ -3,7 +3,7 @@
 	void main(){
 	int num;
 
-	clrscr();
+	
 	printf("Enter num:");
 	scanf("%d",&num);
 
@@ -18,6 +18,6 @@
 	}
 
 
-	getch();
+
 
 	}

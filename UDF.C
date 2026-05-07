@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+
 
 /*
 syntax
@@ -27,7 +27,7 @@ int getSub(num1, num2, num3) {
 void main() {
 	int ans;
 	int n1, n2;
-	clrscr();
+	
 
 	greet(); // fun call
 	greet(); // fun call
@@ -46,5 +46,5 @@ void main() {
 	printf("sum 3 = %d \n", getSum(n1, n2));
 
 	printf("sub = %d \n", getSub(1, 2, 3));
-	getch();
+
 }

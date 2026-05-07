@@ -1,8 +1,8 @@
 #include<stdio.h>
-#include<conio.h>
+
 void main() {
 	int num,i, check = 1;
-	clrscr();
+	
 	printf("enter number:");
 	scanf("%d",&num);
 
@@ -15,5 +15,5 @@ void main() {
 		printf("prime number ");
 	else
 		printf("normal number ");
-	getch();
+
 }

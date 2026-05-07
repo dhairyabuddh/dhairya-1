@@ -3,7 +3,7 @@
 
 void main() {
 	int num;
-	clrscr();
+	
 	printf("Enter a number : ");
 	scanf("%d", &num);
 
@@ -16,5 +16,5 @@ void main() {
 	num % 2 == 0 ? printf("Even number ") : printf("Odd number ");
 
 	printf(num % 2 == 0 ? "even " : "odd ");
-	getch();
+
 }

@@ -33,5 +33,5 @@
 	mod=num1%num2;
 	printf("mod=%d \n",mod);
 
-	getch();
+
 }

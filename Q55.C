@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+
 
 int getsum (int num1,int num2) {
 	int sum=num1+num2;
@@ -29,5 +29,5 @@ void main () {
 
 	printf ("ans of div = %f \n",getdiv (34,12));
 
-	getch();
+
 }

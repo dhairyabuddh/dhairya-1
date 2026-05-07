@@ -1,8 +1,8 @@
 #include<stdio.h>
-#include<conio.h>
+
 void main(){
 	int max,num1,num2,num3;
-	clrscr();
+	
 
 	printf("Enter num1:");
 	scanf("%d",&num1);
@@ -21,7 +21,7 @@ void main(){
 	printf("max=%d \n",max);
 
 
-	getch();
+
 
 }
 

@@ -3,7 +3,7 @@
 void main() {
 	int i, j, counter = 1;
 	char ch = 'A',alfa='a';
-	clrscr();
+	
 
 //1).
 	for (i = 1; i <= 4; i++) {
@@ -44,6 +44,6 @@ void main() {
 		alfa++;
 		printf("\n");
 	}
-	getch();
+
 
 }

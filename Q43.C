@@ -1,10 +1,10 @@
 #include<stdio.h>
-#include<conio.h>
+
 void main(){
 	int arr[5],i,num;
 	int check = 0;
 	// check = 0 -> not present | check = 1 -> present
-	clrscr();
+	
 	for (i=0 ; i < 5 ; i++){
 		printf("enter number:");
 		scanf("%d",&arr[i]);
@@ -20,6 +20,6 @@ void main(){
 		}
 	}
 	printf(check == 1 ? "elem present " : "elem not present ");
-	getch();
+
 
 }

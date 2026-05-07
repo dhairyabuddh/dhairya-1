@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+
 
 void changeCase(char str[]) {
 	int i;
@@ -27,7 +27,7 @@ void main () {
 	changeCase(name);
 	puts(name);
 
-	getch();
+
 }
 
 /*

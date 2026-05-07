@@ -2,7 +2,7 @@
 #include <conio.h>
 void main(){
 	int arr[5],brr[5],crr[10],i;
-	clrscr();
+	
 	for (i = 0;i < 5;i ++) {
 		printf("enter number at %d : ", i);
 		scanf("%d",&arr[i]);
@@ -18,5 +18,5 @@ void main(){
 	for (i = 0; i < 10; i++)
 		printf("%d ",crr[i]);
 
-	getch();
+
 }

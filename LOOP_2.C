@@ -3,7 +3,7 @@
 
 void main() {
 	int i = 1;
-	clrscr();
+	
 
 	for (i = 10; i >= 1; i--) {
 		printf("%d ", i);
@@ -16,5 +16,5 @@ void main() {
 	}
 	*/
 
-	getch();
+
 }

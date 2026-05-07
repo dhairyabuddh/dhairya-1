@@ -4,7 +4,7 @@
 void main() {
 	int num1,num2;
 	int i;
-	clrscr();
+	
 
 	do {
 			printf("enter num1: ");
@@ -40,5 +40,5 @@ void main() {
 	} while (i!=5);
 
 
-	getch();
+
 }

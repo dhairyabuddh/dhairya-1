@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+
 float getArea (int base ,int height) {
 	float area;
 	area= base * height/2;

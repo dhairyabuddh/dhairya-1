@@ -1,10 +1,10 @@
 #include<stdio.h>
-#include<conio.h>
+
 void main() {
 	int num, i;
 	long int prod = 1;
 
-	clrscr();
+	
 
 	up:
 
@@ -19,5 +19,5 @@ void main() {
 	}
 	printf("prod = %ld \n", prod);
 
-	getch();
+
 }

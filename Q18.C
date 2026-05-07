@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+
 void main()
 	{
 	int sub1,sub2,sub3,sub4,sub5;
@@ -8,7 +8,7 @@ void main()
 	int pass = 1; // pass == 1 -> pass, pass == 0 -> fail
 	int count = 0;
 
-	clrscr();
+	
 
 	printf("Enter sub1 mark: ");
 	scanf("%d",&sub1);
@@ -71,7 +71,7 @@ void main()
 	else
 		printf("fail");
 
-	getch();
+
 
 }
 

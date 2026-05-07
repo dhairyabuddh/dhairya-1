@@ -1,9 +1,9 @@
 #include<stdio.h>
-#include<conio.h>
+
 void main() {
 	int num=1, ld;
 	int rn = 0;
-	clrscr();
+	
 	printf("Enter num:",num);
 	scanf("%d",&num);
 
@@ -17,6 +17,6 @@ void main() {
 //		printf("ld = %d num = %d rn = %d \n", ld, num, rn);
 	}
 	printf("rn = %d \n", rn);
-	getch();
+
 }
 

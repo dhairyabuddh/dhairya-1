@@ -1,9 +1,9 @@
 #include<stdio.h>
-#include<conio.h>
+
 void main() {
 	int arr[5],brr[5],crr[10],i;
 	int sum=0;
-	clrscr();
+	
 	for (i=0 ;i<5;i++) {
 		printf("Enter Number at th%d:", i);
 		scanf("%d",&arr[i]);
@@ -31,5 +31,5 @@ void main() {
 		printf("%d ", crr[i]);
 	}
 
-	getch();
+
 }

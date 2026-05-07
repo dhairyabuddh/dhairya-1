@@ -1,8 +1,8 @@
 #include<stdio.h>
-#include<conio.h>
+
 void main(){
 	int num1,num2,num3;
-	clrscr();
+	
 
 	printf("Enter num1:");
 	scanf("%d",&num1);
@@ -30,7 +30,7 @@ void main(){
 		}
 	}
 
-	getch();
+
 
 }
 

@@ -2,7 +2,7 @@
 #include <conio.h>
 void main () {
 	int arr[5],i,max,min;
-	clrscr();
+	
 	for(i=0; i<5 ;i++){
 		printf("Enter Number on th%d:",i);
 		scanf("%d",&arr[i]);
@@ -23,6 +23,6 @@ void main () {
 	}
 	printf("min index = %d \n", min);
 
-	getch();
+
 }
 

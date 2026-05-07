@@ -3,7 +3,7 @@
 	void main(){
 	int year;
 
-	clrscr();
+	
 	printf("enter the year:");
 	scanf("%d",&year);
 
@@ -14,6 +14,6 @@
 	else {
 		printf("this year isn't leap year");
 	}
-	getch();
+
 
 }

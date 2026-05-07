@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+
 void main() {
 	int cosmosComputer=1;
 	clrscr ();
@@ -8,5 +8,5 @@ void main() {
 		printf("cosmosComputer=%d ",cosmosComputer);
 		cosmosComputer++;
 	}
-	getch();
+
 }

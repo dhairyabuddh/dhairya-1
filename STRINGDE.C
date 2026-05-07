@@ -7,7 +7,7 @@ void main() {
 	char name[20];
 	int i, size = sizeof(name);
 
-	clrscr();
+	
 
 	printf("Enter name : ");
 //	scanf("%s", &name);
@@ -25,6 +25,6 @@ void main() {
 	for (i = 0; name[i] != '\0'; i++) {
 		printf("%c ", name[i]);
 	}
-	getch();
+
 
 }

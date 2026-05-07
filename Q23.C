@@ -1,9 +1,9 @@
 #include<stdio.h>
-#include<conio.h>
+
 void main() {
 	long int annIncome,intax;
 
-	clrscr();
+	
 	printf("Enter your annual income :");
 	scanf("%ld",&annIncome);
 
@@ -19,6 +19,6 @@ void main() {
 		printf("income tax=25");
 
 
-	getch();
+
 }
 

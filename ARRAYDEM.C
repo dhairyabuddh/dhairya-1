@@ -10,7 +10,7 @@ void main() {
 	// datatype arrName[size];
 	int marks[5];
 	int i;
-	clrscr();
+	
 
 	marks[0] = 10;
 	printf("marks [0] = %d \n", marks[0]);
@@ -28,6 +28,6 @@ void main() {
 	for (i = 0; i < 5; i++) {
 		printf("i = %d, marks[%d] = %d \n", i, i, marks[i]);
 	}
-	getch();
+
 }
 

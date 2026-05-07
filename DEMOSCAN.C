@@ -4,7 +4,7 @@
 void main() {
 	int num1, num2;
 	int sum;
-	clrscr();
+	
 	// input -> scanf
 	// output -> printf
 	printf("Enter num1 :");
@@ -19,5 +19,5 @@ void main() {
 	printf("%d + %d = %d \n", num1, num2, num1 + num2);
 
 	// + - * / %
-	getch();
+
 }

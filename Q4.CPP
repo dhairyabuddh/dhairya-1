@@ -27,5 +27,5 @@
 
 	div=num1/num2;
 	printf("div=%d",div);
-	getch();
+
 }

@@ -3,7 +3,7 @@
 
 void main() {
 	int num;
-	clrscr();
+	
 	printf("Enter a number : ");
 	scanf("%d", &num);
 
@@ -39,5 +39,5 @@ void main() {
 	}
 
 
-	getch();
+
 }

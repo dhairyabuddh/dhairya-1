@@ -1,8 +1,8 @@
 #include<stdio.h>
-#include<conio.h>
+
 void main() {
 	int num,rn=0,ld,ans;
-	clrscr();
+	
 	printf("Enter number:");
 	scanf("%d",&num);
 	ans=num;
@@ -18,5 +18,5 @@ void main() {
 	else {
 		printf("num is not palindrome num.");
 	}
-	getch();
+
 }

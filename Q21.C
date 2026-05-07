@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+
 
 	void main(){
 	int purchase;
@@ -23,5 +23,5 @@
 
 	printf("total=%f \n",total);
 
-	getch();
+
 }

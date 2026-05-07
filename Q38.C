@@ -4,7 +4,7 @@
 void main() {
 	int i,a=-1,b=1,c;
 	long int num;
-	clrscr();
+	
 
 	for (i = 1; i <= 10; i++) {
 		printf("%d ", i * i);
@@ -21,5 +21,5 @@ void main() {
 	for (num=1;num<=10;num++){
 		printf(" %ld ",num * num * num);
 	}
-	getch();
+
 }

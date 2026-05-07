@@ -1,8 +1,8 @@
 #include<stdio.h>
-#include<conio.h>
+
 void main() {
 	int num,power,ans=1,i;
-	clrscr();
+	
 	printf("Enter base number:");
 	scanf("%d",&num);
 
@@ -14,5 +14,5 @@ void main() {
 		ans*=num;
 	}
 	printf("ans of power value=%d",ans);
-	getch();
+
 }

@@ -1,10 +1,10 @@
 #include<stdio.h>
-#include<conio.h>
+
 void main() {
 	int sub1,sub2,sub3,sub4,sub5;
 	int total;
 	float perc;
-	clrscr();
+	
 	printf("Enter sub1 marks:");
 	scanf("%d",&sub1);
 
@@ -44,6 +44,6 @@ void main() {
 	}
 
 
-	getch();
+
 
 }

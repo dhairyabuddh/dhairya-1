@@ -1,10 +1,10 @@
 #include<stdio.h>
-#include<conio.h>
+
 void main(){
 	int num1,num2,num3,num4,num5;
 	int mul;
 
-	clrscr();
+	
 
 	start:
 
@@ -30,5 +30,5 @@ void main(){
 		printf("mul=%d \n",mul);
 	}
 
-	getch();
+
 }
