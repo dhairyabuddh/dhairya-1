@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <conio.h>
+	void main (){
+	float pi;
+	int r;
+	int area;
+
+	clrscr ();
+	printf("pi=%f \n",pi);
+	scanf("%f",&pi);
+
+	printf("r=%d \n",r);
+	scanf("%d",&r);
+
+	area =(float)pi*r*r;
+	printf("circle of area=%d \n",area);
+
+
+	getch ();
+}

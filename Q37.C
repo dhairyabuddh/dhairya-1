@@ -1,0 +1,34 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+	int num1,num2,num3,num4,num5;
+	int mul;
+
+	clrscr();
+
+	start:
+
+	printf("Enter num1:");
+	scanf("%d",&num1);
+
+	printf("Enter num2:");
+	scanf("%d",&num2);
+
+	printf("Enter num3:");
+	scanf("%d",&num3);
+
+	printf("Enter num4:");
+	scanf("%d",&num4);
+
+	printf("Enter num5:");
+	scanf("%d",&num5);
+
+	if (num1<=0 && num2<=0 && num3<=0 && num4<=0 && Ynum5<=0)
+		goto start;
+	else {
+		mul=num1*num2*num3*num4*num5;
+		printf("mul=%d \n",mul);
+	}
+
+	getch();
+}
