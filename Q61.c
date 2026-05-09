@@ -1,7 +1,7 @@
-#include<stdio.h>
+        #include<stdio.h>
 void  main()
 {
-    int a,b,c,*p1,*p2,*p3;
+        int a,b,c,*p1,*p2,*p3;
 
     p1=&a;
     p2=&b;
