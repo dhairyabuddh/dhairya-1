@@ -1,11 +1,22 @@
 #include <stdio.h>
-int getupdate (int ) {
+
+struct employee {
+    float salary,inc,tot;
+    int num;
+}emp;
+int getupdate () {
+    emp.inc=emp.salary*10/100;
+    emp.tot=emp.salary+emp.inc;
+    printf("\nincrement:%f",emp.inc);
+    printf("new salary:%f",emp.tot);
 
 }
-struct employee {
-    float salary;
-    int num;
-};
-int main {
-    struct employee emp;
+int main()
+{
+        printf("enter no:");
+        scanf("%d",&emp.num);
+        printf("enter salary:");
+        scanf("%f",&emp.salary);
+        getupdate();
+        
 }
