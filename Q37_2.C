@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void main() {
+int main() {
 	int num, i;
 	long int prod = 1;
 

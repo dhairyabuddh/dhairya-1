@@ -1,7 +1,6 @@
 #include <stdio.h>
-#include <conio.h>
 
-void main() {
+int main() {
 	int num1,num2;
 	int i;
 	

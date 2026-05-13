@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <conio.h>
-void main() {
+
+int main() {
 	int i, j, counter = 1;
 	char ch = 'A',alfa='a';
 	

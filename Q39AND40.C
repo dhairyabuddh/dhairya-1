@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include <conio.h>
-void main() {
+
+int main() {
 	int i, j,k,num;
 	
-
 	/*
 	printf("* * * * \n");
 	printf("* * * * \n");
@@ -92,9 +91,5 @@ void main() {
 		}
 		printf("\n");
 	}
-
-	 getch();
-
-
 
 }

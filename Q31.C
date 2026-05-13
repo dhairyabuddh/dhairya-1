@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void main() {
+int  main() {
 	int num,power,ans=1,i;
 	
 	printf("Enter base number:");

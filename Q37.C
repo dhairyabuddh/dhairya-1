@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void main(){
+int main(){
 	int num1,num2,num3,num4,num5;
 	int mul;
 

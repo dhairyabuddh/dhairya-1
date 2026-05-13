@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void main() {
+int main() {
 	int num=1, ld;
 	int rn = 0;
 	

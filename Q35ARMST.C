@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 #include<math.h>
-void main() {
+int main() {
 	int num,ans=0,ld,count=0,temp;
 	
 
