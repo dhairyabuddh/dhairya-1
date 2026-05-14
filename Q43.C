@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void main(){
+int  main(){
 	int arr[5],i,num;
 	int check = 0;
 	// check = 0 -> not present | check = 1 -> present
@@ -20,6 +20,6 @@ void main(){
 		}
 	}
 	printf(check == 1 ? "elem present " : "elem not present ");
-
+	return 0;
 
 }

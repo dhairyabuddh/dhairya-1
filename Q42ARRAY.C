@@ -1,7 +1,6 @@
 #include <stdio.h>
-#include <conio.h>
 
-void main() {
+int main() {
 	int arr[5],i,sum=0;
 	
 	for(i=0;i<5;i++){
@@ -10,5 +9,5 @@ void main() {
 		sum=sum+arr[i];
 	}
 	printf("total of array=%d",sum);
-
+return 0;
 }
